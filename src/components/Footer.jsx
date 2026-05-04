@@ -3,7 +3,7 @@ import logoimage from "../assets/logo.png";
 
 function Footer() {
   return (
-    <footer className="bg-blue-800 text-white mt-20">
+    <footer className="bg-blue-800 text-white ">
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-12 grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Brand */}
         <div>
