@@ -37,7 +37,7 @@ function SpecialityMenu() {
   const navigate = useNavigate();
 
   return (
-    <section id="speciality" className="py-14 bg-gradient-to-b from-white to-blue-100">
+    <section id="speciality" className="py-14 bg-gradient-to-b from-white to-blue-200">
 
       {/* Title */}
       <div className="text-center mb-12 px-4">
