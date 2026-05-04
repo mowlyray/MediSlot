@@ -80,7 +80,7 @@ function Doctors() {
           {/* HEADER (CENTER IMPROVED) */}
           <div className="text-center mb-10">
 
-            <h2 className="text-3xl font-bold text-gray-800">
+            <h2 className="text-3xl font-bold  text-blue-600">
               {selected === "All" ? "All Doctors" : selected}
             </h2>
 
