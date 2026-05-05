@@ -19,7 +19,7 @@ function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-white py-12 px-4">
+    <div className="min-h-screen bg-gradient-to-b from-blue-100 via-white to-blue-100 py-12 px-4">
 
       {/* HEADER */}
       <div className="text-center mb-12">

@@ -5,12 +5,18 @@ import App from './App.jsx'
 import {BrowserRouter} from 'react-router-dom'
 import AppContextProvider from './context/AppContext'
 import ScrollToTop from './components/ScrollToTop.jsx'
+import AuthProvider from './provider/AuthProvider.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
+
+  <AuthProvider>
     <AppContextProvider>
       <ScrollToTop />
       <App />
     </AppContextProvider>
+
+  </AuthProvider>
+    
   </BrowserRouter>
 )
